@@ -1,0 +1,19 @@
+a:visited {
+  color: #dddddd;
+}
+
+body {
+   background-color: #30475e;
+   font-family: sans-serif;
+}
+
+hr {
+  border: 7px;
+  border-top-style: dotted;
+  color: #dddddd;
+  width: 50%;
+}
+
+a, h1, h2, h3, p, strong, li,table {
+  color: white;
+}
