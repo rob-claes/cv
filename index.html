@@ -1,119 +1,84 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Rob's Personal Website</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
 
-<body>
+    <meta charset="utf-8">
+    <title>Rob Claes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
 
-  <!-- Profile picture + Introduction, displayed in a table for layout -->
+  </head>
 
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images/profile-picture-rob-circle.png" alt="Profile picture of Rob Claes"></td>
-        <td>
-          <h1>Rob Claes</h1>
-          <p><strong>Graphic designer</strong> with a <em>love</em> for web design and branding.</p>
-          <p>As a graphic designer it is my job to find out what your problem is, and work out how we can solve that efficiently and visually pleasing.</p>
-        </td>
-      </tr>
-    </table>
+  <body>
 
-  <hr> <!-- Horizontal Rule -->
+  <!-- Div stands for 'Content division element'.
+  Div's are used to divide and structure your content. -->
 
-  <!-- Experience, displayed in a table for layout -->
+    <!-- Top Container -->
 
-    <h3>Experience</h3>
+    <div class="top-container">
 
-      <table style="text-align:left" cellspacing="10"> <!-- I used CSS to align the text of the table to the left -->
-        <thead>
-          <tr>
-            <th>Dates</th>
-            <th>Employer</th>
-            <th>Function</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2018 - 2019</td>
-            <td><a href="https://www.viata.be/online-apotheek">Viata</a></td>
-            <td>Freelance Graphic Designer</td>
-          </tr>
-          <tr>
-            <td>2019</td>
-            <td><a href="https://www.theschool.city/">The School</a></td>
-            <td>Urban Researcher</td>
-          </tr>
-          <tr>
-            <td>2019 - Current</td>
-            <td><a href="https://www.unitedspb.com/">United Sports Brands</a></td>
-            <td>In-house Graphic Designer</td>
-          </tr>
-        </tbody>
-      </table>
+      <img class="top-cloud"  src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Rob.</h1>
+      <h2>A <em>graphic</em> designer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
 
-    <hr> <!-- Horizontal Rule -->
+    </div>
 
-    <!-- Main skills table, table with 2 nested tables for layout -->
+    <!-- Middle Container -->
 
-      <h3>Skills</h3>
+    <div class="middle-container">
 
-        <table cellspacing="10">
-          <tr>
-            <td>
-              <table>
-                <tr>
-                  <td>Adobe Suite</td>
-                  <td>★★★★★</td>
-                </tr>
-                <tr>
-                  <td>Drawing</td>
-                  <td>★★★★★</td>
-                </tr>
-                <tr>
-                  <td>Figma</td>
-                  <td>★★★★☆</td>
-                </tr>
-              </table>
-            </td>
-            <td>
-              <table>
-                <tr>
-                  <td>Typography</td>
-                  <td>★★★★☆</td>
-                </tr>
-                <tr>
-                  <td>Photography</td>
-                  <td>★★★☆☆</td>
-                </tr>
-                <tr>
-                  <td>HTML & CSS</td>
-                  <td>★★☆☆☆</td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
+      <div class="profile">
+        <img src="images/rob.png" alt="rob-img">
+        <h2>Hello.</h2>
+        <p class="intro-text">My name is Rob Claes. I am a graphic designer, currently working as a in-house for United Sports Brands. Graduated from PXL-MAD in Hasselt, Belgium and currently living in Aarschot. My main goal is to create content that people love to interact with. At the moment I’m also learning how to code. My hobbies include drawing, (board)games and hiking in nature. But my main passions are reading, learning & cardio exercise.</p>
+      </div>
 
-    <hr> <!-- Horizontal Rule -->
+      <hr>  <!-- Horizontal Rule -->
 
-    <!-- Hobbies, displayed in an unordered list -->
+      <div class="skills">
 
-    <h3>Hobbies</h3>
-      <ul>
-        <li>Drawing</li>
-        <li>Learning</li>
-        <li>Reading</li>
-        <li>Cardio exercise</li>
-      </ul>
+        <h2>My Skills.</h2>
 
-    <hr> <!-- Horizontal Rule -->
+        <div class="skill-row">
+          <img class="computer-image" src="images/computer.png" alt="computer-img">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula.<br>
+            Hendrerit nam, lectus ante, ut lorem eros.</p>
+        </div>
 
-    <a href="contact-details.html">Contact me</a>
+        <div class="skill-row">
+          <img class="chillies-image" src="images/chillies.png" alt="chillies-img">
+          <h3>Hot Chillies</h3>
+          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
 
-</body>
+      </div>
+
+      <hr>  <!-- Horizontal Rule -->
+
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <p class="contact-me-text">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:rob.m.claes@gmail.com">CONTACT ME</a>
+      </div>
+
+    </div>
+
+    <!-- Bottom Container -->
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/rob-claes/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/RobClaes4">Twitter</a>
+      <a class="footer-link" href="https://www.robclaes.com/">Website</a>
+      <p>© 2021 Claes Rob.</p>
+    </div>
+
+  </body>
 
 </html>
